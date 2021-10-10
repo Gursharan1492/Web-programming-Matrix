@@ -1,0 +1,27 @@
+body{
+    background-color: burlywood;
+}
+h1{
+    color:blueviolet;
+    letter-spacing: 1px;
+    
+ }
+ p{
+     line-height: 9.9.rem;
+ }
+ .fruit {
+    background-color: #fff0aa; ;
+    
+  }
+ .fruits {
+    color: steelblue;
+    font-family:  cursive;
+  }
+  .veggeis {
+    background-color: rgb(111, 57, 199); ;
+    
+  }
+  th{
+      border:#fff0aa;
+  }
+  
