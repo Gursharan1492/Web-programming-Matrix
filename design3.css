@@ -1,0 +1,12 @@
+.container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.centeredItem {
+  height: 100px;
+  width: 100px;
+  border: 5px solid darkblue;
+}

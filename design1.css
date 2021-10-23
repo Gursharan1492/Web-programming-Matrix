@@ -1,0 +1,12 @@
+.flex-container {
+    display: flex;
+  }
+  
+  .flex-container > button { 
+    color:white;
+    background-color: DodgerBlue;
+    margin: 10px;
+    padding: 10px;
+    font-size: 30px;
+    border-radius:10px;
+  }
