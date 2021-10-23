@@ -1,104 +1,61 @@
-Index1
+Answer 1--
+var number = 15;
+var str = "this is string";
+var undefinedVariable = undefined;
+var list = [1,2,3,4,5];
 
-<!DOCTYPE html>
-<html>
-  <head>
-
-    <title>Lithuanian Flag</title>
-
-    <style>
-      #div1 {
-        width: 400px;
-        height: 80px;
-
-        background-color: yellow;
-      }
-
-      #div2 {
-        width: 400px;
-        height: 80px;
-
-        background-color: green;
-      }
-
-      #div3 {
-        width: 400px;
-        height: 80px;
-
-        background-color: red;
-      }
-    </style>
-  </head>
-
-  <body>
-    <div id="div1"></div>
-    <div id="div2"></div>
-    <div id="div3"></div>
-  </body>
-</html>
+Answer 2--
+var daysOfWeek = ["monday","tuesday","wednesday","thursday","friday"];
+console.log(daysOfWeek);
+daysOfWeek.push("saturday")
+daysOfWeek.unshift("monday")
 
 
 
+Answer 3--
 
-Index2
-
-<!DOCTYPE html>
-<html >
-  <head>
-   
-    <title>Romanian Flag</title>
-
-    <style>
-      #div1 {
-        width: 133px;
-        height: 240px;
-        margin-top: 100px;
-        margin-left: 50px;
-
-        background-color: yellow;
-
-        border-left: 133px solid blue;
-        border-right: 133px solid red;
-       
-      }
-    </style>
-  </head>
-
-  <body>
-    <div id="div1"></div>
-  </body>
-</html>
+for(var i=1;i<=10;i++){
+console.log(i)
+}
 
 
+Answer 4--
+for(var i=1;i<=100;i++){
+    if(i%2==0)
+    console.log(i)
+}
 
-Index3
+Answer 5--
+switch (1) {
+    case 1:
+        console.log("monday")
+    case 2:
+        console.log("tuesday")
+    case 3:
+        console.log("wednesday")
+    case 4:
+        console.log("thursday")
+    case 5:
+        console.log("friday")
+    case 6:
+        console.log("saturday")
+    case 7:
+        console.log("sunday")
+}
 
-<!DOCTYPE html>
-<html >
-  <head>
-    
-    <title>Hot Air Balloon</title>
+Answer 6--
+var count=1;
+do{
+    console.log("Hello World")
+    count++;
+}
+while(count<=7);
 
-    <style>
-      #div1 {
-        width: 300px;
-        height: 375px;
-      }        
 
-       #img{ margin-top: 100px;
-        margin-left: 100px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        padding-left: 5px;
-        padding-right: 5px;
-        border: 5px dashed red;
-      }
-    </style>
-  </head>
 
-  <body>
-    <div id="div1">
-      <img id="img" src="balloon.jpg" alt="Hot balloon" />
-    </div>
-  </body>
-</html>
+Answer 7--
+var number = 20;
+if(number>18 && number <25)
+console.log("number is greater than 18 and less than 25")
+else
+console.log("number is not greater than 18 and less than 25")
